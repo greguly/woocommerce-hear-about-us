@@ -89,7 +89,7 @@ class WCHAU_Admin_Setting_Fields {
 				'desc'     => __( 'List all of the possible answers, one answer per line.', 'woocommerce-hear-about-us' ),
 				'id'       => 'wchau_options',
 				'type'     => 'textarea',
-				'default'  => implode( PHP_EOL, array( 'Google', 'Facebook', 'Twitter', 'A friend', 'Other' ) ),
+				'default'  => implode( PHP_EOL, array( 'Google', 'Facebook', 'Twitter', __( 'A friend', 'woocommerce-hear-about-us' ), __( 'Other', 'woocommerce-hear-about-us' ) ) ),
 				'desc_tip' => true,
 			)
 		) );
